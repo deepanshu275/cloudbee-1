@@ -12,7 +12,7 @@ sudo npm install -g @angular/cli
 sudo nano front-end/src/app/ip.ts
 
 # Deploy backend
-cd backend
+cd backend \n
 npm install
 node_modules/forever/bin/forever start app/index.js
 cd ../
