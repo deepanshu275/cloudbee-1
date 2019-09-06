@@ -1,10 +1,10 @@
-#CloudBee
+# CloudBee
 
 An end-to-end platform designed to create, change, and improve highly customisable, large scale infrastructures by easily uploading blue-prints on an Angular 8 web interface with a NodeJS, Terraform and Ansible backend.
 
-#Install npm
+# Install npm
 
-#Dependencies installation
+# Dependencies installation
 
 sudo npm install -g @angular/cli
 
