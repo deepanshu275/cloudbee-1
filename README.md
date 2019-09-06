@@ -26,11 +26,11 @@ cd ../
 
 # Install Terrafrom, Ansible etc using this api:
 
-GET http://<YOUR-IP>:3000/setup
+GET http://YOUR-IP:3000/setup
 
 # ENTER YOUR AWS IAM CREDENTIALS
 
-POST http://<YOUR-IP>:3000/auth/aws
+POST http://YOUR-IP:3000/auth/aws
 
 HEADER:
 Content-Type: application/json
@@ -38,7 +38,7 @@ Content-Type: application/json
 BODY:
 {
 	"awsAccessKey": "YOUR-ACCESS-KEY",
-	"awsSecretKey": "YOUT-SECRET-KEY"
+	"awsSecretKey": "YOUR-SECRET-KEY"
 }
 
 #Created By Shlok Kapoor 2019
