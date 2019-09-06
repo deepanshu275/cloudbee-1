@@ -1,0 +1,13 @@
+<div class="consoleContents">
+  <mat-progress-bar mode="buffer"></mat-progress-bar>
+  <div style="display: flex; flex-direction: row;">
+    <h3>Console Output</h3>
+    <button mat-flat-button mat-button color="basic" (click)="clearConsole()">
+      Clear Console
+    </button>
+  </div>
+  <div *ngFor="let line of consoleOutput">
+    <p>{{line.stdout}}</p>
+    <p>{{line.stderr}}</p>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  margin-bottom: 15px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  font-family: "Courier New"
+}

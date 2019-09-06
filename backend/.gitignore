@@ -1,0 +1,4 @@
+./Terraform-Setup/terraform.tfvars
+./Terraform-Setup/mykey*
+./Terraform-Setup/playbook-test.yml
+node_modules
