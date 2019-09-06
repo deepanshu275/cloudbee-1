@@ -12,14 +12,14 @@ sudo npm install -g @angular/cli
 sudo nano front-end/src/app/ip.ts
 
 # Deploy backend
-cd backend \n
-npm install
-node_modules/forever/bin/forever start app/index.js
+cd backend &&
+npm install &&
+node_modules/forever/bin/forever start app/index.js &&
 cd ../
 
 # Deploy front-end
-cd front-end
-npm install node_modules/forever/bin/forever start node_modules/@angular/cli/bin/ng serve --host=0.0.0.0
+cd front-end &&
+npm install node_modules/forever/bin/forever start node_modules/@angular/cli/bin/ng serve --host=0.0.0.0 &&
 cd ../
 
 **IMPORTANT - FOR SECURITY REASONS LAUNCH THE FRONT END ON YOUR LOCAL MACHINE**
